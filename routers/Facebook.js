@@ -1,4 +1,4 @@
-const express = require('express');
+const express = require('@feathersjs/express');
 const Facebook = require('../services/Facebook');
 
 const router = express.Router();

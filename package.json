@@ -11,7 +11,7 @@
   },
   "husky": {
     "hooks": {
-      "pre-push": "eslint index.js"
+      "pre-push": "eslint --fix index.js ./routers ./services"
     }
   },
   "dependencies": {
